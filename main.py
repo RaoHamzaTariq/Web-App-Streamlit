@@ -4,6 +4,8 @@ import numpy as np
 import os
 from io import BytesIO
 
+st.set_page_config(page_title="Data Cleaner and Visualizer",layout="wide")
+
 st.title("Data Cleaning and Visualization")
 st.write("Clean the dataset and Visualize the dataset with some findings.")
 
